@@ -61,7 +61,7 @@ function success(position, extra) {
 ```
 
 position 定义：
-```
+``` json
 {
   "coords": {
     "latitude": "number",
@@ -77,9 +77,11 @@ position 定义：
 ```
 
 extra 定义：
-```
+定位类型，具体请参考BDLocation#getLocType和BDLocation#getLocTypeDescription
+``` json
 {
-  "type": "string"
+    "locationType": int
+    "locationTypeDescription": "string"
 }
 ```
 

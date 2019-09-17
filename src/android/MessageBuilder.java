@@ -29,7 +29,8 @@ public class MessageBuilder {
 
         JSONObject extra = new JSONObject();
         try {
-            extra.put("type", location.getLocType());
+            extra.put("locationType", String.valueOf(location.getLocType()));
+            extra.put("locationTypeDescription", location.getLocTypeDescription());
         } catch (JSONException e) {
             e.printStackTrace();
         }

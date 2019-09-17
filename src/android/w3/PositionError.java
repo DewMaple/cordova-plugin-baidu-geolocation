@@ -1,5 +1,4 @@
-package com.eteng.geolocation.w3;
+package com.dewmaple.geolocation.w3;
 
 public class PositionError {
-
 }

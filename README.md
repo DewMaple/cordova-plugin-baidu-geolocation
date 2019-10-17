@@ -9,7 +9,7 @@ Cordova 百度定位插件，兼容 W3C 的 geolocation 标准，解决中国大
 
 What I do
 =============
-Fix ensure the plugin can work properly in 64bit APK.
+Fix some bugs, ensure the plugin can work properly in 64bit APK.
 
 安装方法
 -------

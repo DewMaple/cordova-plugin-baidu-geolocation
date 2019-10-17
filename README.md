@@ -7,6 +7,10 @@ Cordova 版本：5.0.0
 
 Cordova 百度定位插件，兼容 W3C 的 geolocation 标准，解决中国大陆手机无法定位的问题。
 
+What I do
+=============
+Fix ensure the plugin can work properly in 64bit APK.
+
 安装方法
 -------
 
